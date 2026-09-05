@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Aicha Ajdid</h1>
-<h3 align="center">Data Analyst | Big Data Analytics MSc</h3>
+<h3 align="center">Data Analyst | Data Engineer | Big Data Analytics MSc</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aicha-ajdid-50836626b/" target="_blank">
@@ -14,12 +14,12 @@
 
 ###  About Me
 
-I'm a **Data Analyst** with a Master's in **Big Data Analytics**, passionate about turning raw data into actionable business insights. I specialize in building end-to-end analytics solutions — from SQL data modeling and Python EDA to interactive Power BI dashboards and real-time data pipelines.
+I'm a **Data Analyst and Data Engineer** with a Master's in **Big Data Analytics**, passionate about turning raw data into actionable business insights and building the reliable pipelines that make that possible. I work across the full stack — from SQL data modeling and Python EDA, to orchestrated ETL pipelines, to interactive Power BI dashboards.
 
 -  I love uncovering the "why" behind the numbers
--  I design dashboards that tell stories, not just display charts
+-  I build pipelines that are idempotent, tested, and actually monitored — not just scripts that happen to work once
 -  I'm currently exploring real-time stream processing and ML-driven analytics
--  Open to **Data Analyst**, **BI Analyst**, and **Data Engineer** roles
+-  Open to **Data Analyst**, **BI Analyst**, and **Data Engineer** roles — full-time or freelance
 
 ---
 
@@ -36,9 +36,10 @@ I'm a **Data Analyst** with a Master's in **Big Data Analytics**, passionate abo
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
 
-**Data Processing & Streaming**
+**Data Processing & Orchestration**
 
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
@@ -62,36 +63,41 @@ I'm a **Data Analyst** with a Master's in **Big Data Analytics**, passionate abo
 
 ###  Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/AICHAAAAH/olist-profitability-analysis">📈 Olist Profitability & Customer Analysis</a></h4>
-      <p>End-to-end e-commerce analytics project using the Brazilian Olist dataset.</p>
-      <ul>
-        <li>Built a PostgreSQL data warehouse with optimized schema & views</li>
-        <li>Performed RFM customer segmentation and churn prediction (Random Forest, ROC-AUC 0.606)</li>
-        <li>Created a 2-page interactive Power BI dashboard</li>
-        <li>Delivered an executive summary PDF with actionable business recommendations</li>
-      </ul>
-      <p>
-        <code>SQL</code> <code>Python</code> <code>Power BI</code> <code>scikit-learn</code> <code>ReportLab</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/AICHAAAAH/Project-Real-time-batch-access-log-processing">⚡ Real-Time & Batch Log Processing Pipeline</a></h4>
-      <p>Scalable web server log processing pipeline handling 200+ req/s.</p>
-      <ul>
-        <li>Real-time aggregation via Kafka Streams with 5-minute tumbling windows</li>
-        <li>Scheduled daily batch processing at 8 PM</li>
-        <li>Containerized architecture with Docker Compose (NGINX, Kafka, Cassandra, Fluent Bit)</li>
-        <li>Load-tested with JMeter — 11,815+ logs processed</li>
-      </ul>
-      <p>
-        <code>Kafka</code> <code>Cassandra</code> <code>Docker</code> <code>Java</code> <code>Python</code> <code>NGINX</code>
-      </p>
-    </td>
-  </tr>
-</table>
+<h4><a href="https://github.com/AICHAAAAH/dummyjson-etl-pipeline">🔄 DummyJSON Person/Employment/Classification ETL Pipeline</a></h4>
+<p>End-to-end, orchestrated ETL pipeline ingesting REST API data into a PostgreSQL warehouse, scheduled and monitored with Apache Airflow.</p>
+<ul>
+  <li>Idempotent, incremental loads via content hashing — proven with real repeat-run tests, not just designed</li>
+  <li>Data quality gates (null, uniqueness, referential integrity, range checks) with a tested failure path</li>
+  <li>Fully orchestrated with Airflow (CeleryExecutor, Redis, retries), deployed via Docker Compose</li>
+  <li>6 passing unit tests; documented data lineage and incremental-load strategy</li>
+</ul>
+<p>
+  <code>Python</code> <code>PostgreSQL</code> <code>Apache Airflow</code> <code>Docker</code> <code>SQLAlchemy</code> <code>pytest</code>
+</p>
+
+<h4><a href="https://github.com/AICHAAAAH/olist-profitability-analysis">📈 Olist Profitability & Customer Analysis</a></h4>
+<p>End-to-end e-commerce analytics project using the Brazilian Olist dataset.</p>
+<ul>
+  <li>Built a PostgreSQL data warehouse with optimized schema & views</li>
+  <li>Performed RFM customer segmentation and churn prediction (Random Forest, ROC-AUC 0.606)</li>
+  <li>Created a 2-page interactive Power BI dashboard</li>
+  <li>Delivered an executive summary PDF with actionable business recommendations</li>
+</ul>
+<p>
+  <code>SQL</code> <code>Python</code> <code>Power BI</code> <code>scikit-learn</code> <code>ReportLab</code>
+</p>
+
+<h4><a href="https://github.com/AICHAAAAH/Project-Real-time-batch-access-log-processing">⚡ Real-Time & Batch Log Processing Pipeline</a></h4>
+<p>Scalable web server log processing pipeline handling 200+ req/s.</p>
+<ul>
+  <li>Real-time aggregation via Kafka Streams with 5-minute tumbling windows</li>
+  <li>Scheduled daily batch processing at 8 PM</li>
+  <li>Containerized architecture with Docker Compose (NGINX, Kafka, Cassandra, Fluent Bit)</li>
+  <li>Load-tested with JMeter — 11,815+ logs processed</li>
+</ul>
+<p>
+  <code>Kafka</code> <code>Cassandra</code> <code>Docker</code> <code>Java</code> <code>Python</code> <code>NGINX</code>
+</p>
 
 ---
 
