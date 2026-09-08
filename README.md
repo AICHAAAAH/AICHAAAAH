@@ -29,7 +29,7 @@ data modeling, orchestration, and real-time data processing.
 - ⚙️ I build reliable, tested, and reproducible data pipelines
 - 🔍 I focus on insights that can lead to practical business actions
 
-**Open to freelance Data Analytics, BI, and data projects.**
+**Open to freelance Data Analytics, BI, and ETL projects.**
 
 ---
 
@@ -37,32 +37,37 @@ data modeling, orchestration, and real-time data processing.
 
 **Core Analytics**
 
-![Python]...
-![SQL]...
-![Power BI]...
-![Pandas]...
-![NumPy]...
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=power-bi&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
 **Databases**
 
-![PostgreSQL]...
-![Cassandra]...
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
 
 **Data Engineering**
 
-![Apache Airflow]...
-![Apache Kafka]...
-![Docker]...
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+**Visualization & BI**
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat)
 
 **Machine Learning**
 
-![scikit-learn]...
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
 **Other Tools**
 
-![Java]...
-![Git]...
-![NGINX]...
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat&logo=nginx&logoColor=white)
 
 ---
 
@@ -81,7 +86,7 @@ data modeling, orchestration, and real-time data processing.
   <code>SQL</code> <code>Python</code> <code>Power BI</code> <code>scikit-learn</code> <code>ReportLab</code>
 </p>
 
-<h4><a href="https://github.com/AICHAAAAH/dummyjson-etl-pipeline">🔄 DummyJSON Person/Employment/Classification ETL Pipeline</a></h4>
+<h4><a href="https://github.com/AICHAAAAH/dummyjson-etl-pipeline">🔄 DummyJSON ETL Pipeline</a></h4>
 <p>Production-style ETL pipeline demonstrating reliable ingestion, transformation, validation, and loading of REST API data into a PostgreSQL data warehouse.</p>
 <ul>
   <li>Idempotent, incremental loads via content hashing — proven with real repeat-run tests, not just designed</li>
@@ -109,11 +114,11 @@ data modeling, orchestration, and real-time data processing.
 
 ### 💼 What I Can Help With
 
-- 📊 **Power BI Dashboards** — Interactive KPI and business dashboards
-- 🐍 **Python Data Analysis** — Data cleaning, EDA, and automation
-- 🗄️ **SQL Analytics** — Queries, reporting, KPIs, and data analysis
-- 🧹 **Data Cleaning** — Transforming raw Excel/CSV data into analysis-ready datasets
-- ⚙️ **ETL Pipelines** — Automated data ingestion and transformation
+- 📊 **Power BI Dashboards** — Interactive dashboards, KPI tracking, and business reporting
+- 🐍 **Python Data Analysis** — Data cleaning, exploratory analysis, and automation
+- 🗄️ **SQL Analytics** — Queries, reporting, KPI analysis, and business insights
+- 🧹 **Data Cleaning & Preparation** — Transforming raw Excel/CSV data into analysis-ready datasets
+- ⚙️ **ETL Pipelines** — Automated data ingestion, transformation, validation, and loading
 
 ---
 
