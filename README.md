@@ -92,7 +92,7 @@ data modeling, orchestration, and real-time data processing.
   <li>Idempotent, incremental loads via content hashing — proven with real repeat-run tests, not just designed</li>
   <li>Data quality gates (null, uniqueness, referential integrity, range checks) with a tested failure path</li>
   <li>Fully orchestrated with Airflow (CeleryExecutor, Redis, retries), deployed via Docker Compose</li>
-  <li>6 passing unit tests; documented data lineage and incremental-load strategy</li>
+  <li>16 passing tests; documented data lineage and incremental-load strategy</li>
 </ul>
 <p>
   <code>Python</code> <code>PostgreSQL</code> <code>Apache Airflow</code> <code>Docker</code> <code>SQLAlchemy</code> <code>pytest</code>
