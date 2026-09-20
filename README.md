@@ -87,7 +87,7 @@ data modeling, orchestration, and real-time data processing.
 </p>
 
 <h4><a href="https://github.com/AICHAAAAH/dummyjson-etl-pipeline">🔄 DummyJSON ETL Pipeline</a></h4>
-<p>Production-style ETL pipeline demonstrating reliable ingestion, transformation, validation, and loading of REST API data into a PostgreSQL data warehouse.</p>
+<p>End-to-end ETL pipeline demonstrating reliable ingestion, transformation, validation, and loading of REST API data into PostgreSQL demonstrating reliable ingestion, transformation, validation, and loading of REST API data into a PostgreSQL data warehouse.</p>
 <ul>
   <li>Idempotent, incremental loads via content hashing — proven with real repeat-run tests, not just designed</li>
   <li>Data quality gates (null, uniqueness, referential integrity, range checks) with a tested failure path</li>
