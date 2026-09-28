@@ -1,13 +1,8 @@
-<h1 align="center">Hi, I'm Aicha Ajdid</h1>
+<h1 align="center">Hi, I'm Aicha Ajdid</h1> 
 <h3 align="center">Data Analyst | SQL, Python & Power BI</h3>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/aicha-ajdid-50836626b/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:aichaajdid0@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
+<p align="center"> <a href="https://www.linkedin.com/in/aicha-ajdid-50836626b/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/> </a> <a href="mailto:aichaajdid0@gmail.com"> <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/> 
+</a> 
 </p>
 
 ---
@@ -17,11 +12,11 @@
 I'm a **Data Analyst with an MSc in Big Data Analytics**, specializing in
 **SQL, Python, and Power BI**.
 
-I help turn raw and messy data into **clean datasets, meaningful insights,
-and interactive dashboards** that support better business decisions.
+I turn raw and messy data into **clean datasets, meaningful insights,
+and interactive dashboards** that make business information easier to understand and act on.
 
-My experience also extends into **data engineering**, including ETL pipelines,
-data modeling, orchestration, and real-time data processing.
+My work also includes **ETL pipelines, data modeling, orchestration,
+data quality, and real-time data processing**.
 
 - 📊 I enjoy uncovering the "why" behind the numbers
 - 🧹 I turn messy data into analysis-ready datasets
@@ -74,7 +69,7 @@ data modeling, orchestration, and real-time data processing.
 ###  Featured Projects
 
 <h4><a href="https://github.com/AICHAAAAH/olist-profitability-analysis">📈 Olist Profitability & Customer Analysis</a></h4>
-<p>End-to-end e-commerce analytics project focused on customer behavior, profitability, sales performance, and churn, combining SQL, Python, and Power BI to turn raw transactional data into actionable business insights.</p>
+<p>End-to-end e-commerce analytics project focused on customer behavior, profitability, sales performance, and churn, combining SQL, Python, PostgreSQL, and Power BI to turn raw transactional data into actionable business insights.</p>
 <ul>
   <li>Analyzed customer behavior, sales performance, and profitability using SQL and Python</li>
   <li>Built a PostgreSQL data warehouse with optimized schema and analytical views</li>
@@ -83,11 +78,11 @@ data modeling, orchestration, and real-time data processing.
   <li>Delivered an executive summary with actionable business recommendations</li>
 </ul>
 <p>
-  <code>SQL</code> <code>Python</code> <code>Power BI</code> <code>scikit-learn</code> <code>ReportLab</code>
+  <code>SQL</code> <code>Python</code> <code>PostgreSQL</code> <code>Power BI</code> <code>scikit-learn</code>
 </p>
 
 <h4><a href="https://github.com/AICHAAAAH/dummyjson-etl-pipeline">🔄 DummyJSON ETL Pipeline</a></h4>
-<p>End-to-end ETL pipeline demonstrating reliable ingestion, transformation, validation, and loading of REST API data into a PostgreSQL data warehouse.</p>
+<p>End-to-end ETL pipeline demonstrating reliable ingestion, transformation, validation, and loading of REST API data into a PostgreSQL data warehouse, with automated testing and Airflow orchestration.</p>
 <ul>
   <li>Idempotent, incremental loads via content hashing — proven with real repeat-run tests, not just designed</li>
   <li>Data quality gates (null, uniqueness, referential integrity, range checks) with a tested failure path</li>
@@ -126,9 +121,9 @@ data modeling, orchestration, and real-time data processing.
 
 Have a dataset that needs cleaning, analysis, or visualization?
 
-Need a Power BI dashboard or SQL analysis?
+Need a Power BI dashboard, SQL analysis, or ETL pipeline?
 
-I'm open to **freelance data analytics and BI projects**.
+I'm open to **freelance Data Analytics, BI, and ETL projects**.
 
 Feel free to reach out:
 
